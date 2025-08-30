@@ -15,6 +15,7 @@ A comprehensive analysis of employee attrition using exploratory data analysis (
   - Tenure and age distribution related to attrition  
 
 ---
+
 ## 📊 Visualizations
 
 1. **Employee Tenure vs Attrition** – Histogram with overlay and box plot  
@@ -62,16 +63,17 @@ A comprehensive analysis of employee attrition using exploratory data analysis (
 - Build an interactive dashboard for real-time HR insights.  
 
 ---
+
 ## Main Approach
 
 ```mermaid
 flowchart TD
-    A[Data Collection] --> B[Data Understanding]
-    B --> C[Exploratory Data Analysis (EDA)]
-    C --> D[Data Preprocessing (Encoding, Skew, Remove NZV)]
-    D --> E[Feature Selection & Engineering]
-    E --> F[Model Building (Random Forest)]
-    F --> G[Hyperparameter Tuning]
-    G --> H[Model Evaluation (Accuracy, AUC)]
-    H --> I[Visualization & Insights]
-    I --> J[Conclusion & Recommendations]
+    A["Data Collection"] --> B["Data Understanding"]
+    B --> C["Exploratory Data Analysis"]
+    C --> D["Data Preprocessing"]
+    D --> E["Feature Selection & Engineering"]
+    E --> F["Model Building (Random Forest)"]
+    F --> G["Hyperparameter Tuning"]
+    G --> H["Model Evaluation"]
+    H --> I["Visualization & Insights"]
+    I --> J["Conclusion & Recommendations"]
